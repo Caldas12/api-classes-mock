@@ -1,239 +1,297 @@
 {
-  "students": [
+  "alunos": [
     {
       "id": 12001,
-      "number": "A12001",
-      "name": "João Silva",
-      "email": "joao.silva@caldas.pt",
-      "birth_date": "2003-05-15",
-      "course": "LEGI",
-      "year": 2,
-      "active": true
+      "numero": "A12001",
+      "nome": "João Pedro Silva",
+      "email": "joao.silva@universidade.pt",
+      "data_nascimento": "2003-05-15",
+      "curso": "ENGSI",
+      "ano": 2,
+      "ativo": true,
+      "telefone": "912345678",
+      "nif": "123456789"
     },
     {
       "id": 12002,
-      "number": "A12002",
-      "name": "Maria Santos",
-      "email": "maria.santos@caldas.pt",
-      "birth_date": "2002-08-22",
-      "course": "LESI",
-      "year": 3,
-      "active": true
+      "numero": "A12002",
+      "nome": "Maria Isabel Santos",
+      "email": "maria.santos@universidade.pt",
+      "data_nascimento": "2002-08-22",
+      "curso": "LEI",
+      "ano": 3,
+      "ativo": true,
+      "telefone": "923456789",
+      "nif": "234567890"
     },
     {
       "id": 12003,
-      "number": "A12003",
-      "name": "Pedro Costa",
-      "email": "pedro.costa@caldas.pt",
-      "birth_date": "2004-01-10",
-      "course": "LEGI",
-      "year": 1,
-      "active": true
+      "numero": "A12003",
+      "nome": "Pedro Miguel Costa",
+      "email": "pedro@invalid",
+      "data_nascimento": "2004-01-10",
+      "curso": "ENGSI",
+      "ano": 1,
+      "ativo": true,
+      "telefone": "934567890",
+      "nif": "345678901"
     },
     {
       "id": 12004,
-      "number": "A12004",
-      "name": "Ana Oliveira",
-      "email": "ana.oliveira@caldas.pt",
-      "birth_date": "2003-11-30",
-      "course": "EEC",
-      "year": 2,
-      "active": false
+      "numero": "A12004",
+      "nome": "Ana Sofia Oliveira",
+      "email": "ana.oliveira@universidade.pt",
+      "data_nascimento": "2003-11-30",
+      "curso": "LECI",
+      "ano": 2,
+      "ativo": false,
+      "telefone": "945678901",
+      "nif": "456789012"
     },
     {
       "id": 12005,
-      "number": "A12005",
-      "name": "Carlos Ferreira",
-      "email": "carlos.ferreira@caldas.pt",
-      "birth_date": "2002-03-18",
-      "course": "LEGI",
-      "year": 3,
-      "active": true
+      "numero": "A12005",
+      "nome": "Carlos Manuel Ferreira",
+      "email": "",
+      "data_nascimento": "2002-03-18",
+      "curso": "ENGSI",
+      "ano": 3,
+      "ativo": true,
+      "telefone": "956789012",
+      "nif": "567890123"
+    },
+    {
+      "id": 12006,
+      "numero": "A12006",
+      "nome": "Sofia Beatriz Alves",
+      "email": "sofia.alves@universidade.pt",
+      "data_nascimento": "2004-07-25",
+      "curso": "LEI",
+      "ano": 1,
+      "ativo": true,
+      "telefone": "967890123",
+      "nif": "678901234"
+    },
+    {
+      "id": 12007,
+      "numero": "A12007",
+      "nome": "Bruno Alexandre Martins",
+      "email": "bruno.martins@universidade.pt",
+      "data_nascimento": "2003-02-12",
+      "curso": "ENGSI",
+      "ano": 2,
+      "ativo": true,
+      "telefone": "978901234",
+      "nif": "789012345"
+    },
+    {
+      "id": 12008,
+      "numero": "A12008",
+      "nome": "Catarina Marques Lopes",
+      "email": "catarina.lopes@universidade.pt",
+      "data_nascimento": "2002-09-08",
+      "curso": "LECI",
+      "ano": 3,
+      "ativo": true,
+      "telefone": "989012345",
+      "nif": "890123456"
     }
   ],
-  "courses": [
+  "disciplinas": [
     {
       "id": 1,
-      "code": "ISI2024",
-      "name": "Integração de Sistemas de Informação",
+      "codigo": "ISI2024",
+      "nome": "Integração de Sistemas de Informação",
       "ects": 6,
-      "semester": 1,
-      "department": "Informática",
-      "teacher": "Prof. Luís Ferreira"
+      "semestre": 1,
+      "departamento": "Informática",
+      "docente": "Prof. Luís Ferreira",
+      "horas_teoricas": 30,
+      "horas_praticas": 30
     },
     {
       "id": 2,
-      "code": "BD2024",
-      "name": "Bases de Dados",
+      "codigo": "BD2024",
+      "nome": "Bases de Dados",
       "ects": 6,
-      "semester": 1,
-      "department": "Informática",
-      "teacher": "Prof. Óscar Ribeiro"
+      "semestre": 1,
+      "departamento": "Informática",
+      "docente": "Prof. Óscar Ribeiro",
+      "horas_teoricas": 30,
+      "horas_praticas": 30
     },
     {
       "id": 3,
-      "code": "PROG2024",
-      "name": "Programação Orientada a Objetos",
+      "codigo": "PROG2024",
+      "nome": "Programação Orientada a Objetos",
       "ects": 6,
-      "semester": 2,
-      "department": "Informática",
-      "teacher": "Prof. Ana Silva"
+      "semestre": 2,
+      "departamento": "Informática",
+      "docente": "Prof. Ana Silva",
+      "horas_teoricas": 30,
+      "horas_praticas": 30
     },
     {
       "id": 4,
-      "code": "RC2024",
-      "name": "Redes de Computadores",
+      "codigo": "RC2024",
+      "nome": "Redes de Computadores",
       "ects": 5,
-      "semester": 2,
-      "department": "Informática",
-      "teacher": "Prof. Manuel Costa"
-    }
-  ],
-  "grades": [
-    {
-      "id": 1,
-      "student_id": 12001,
-      "course_id": 1,
-      "assessment_1": 14.5,
-      "assessment_2": 15.0,
-      "exam": 16.0,
-      "final_grade": 15.25,
-      "status": "Aprovado",
-      "academic_year": "2024/2025"
-    },
-    {
-      "id": 2,
-      "student_id": 12001,
-      "course_id": 2,
-      "assessment_1": 13.0,
-      "assessment_2": 14.0,
-      "exam": 15.0,
-      "final_grade": 14.1,
-      "status": "Aprovado",
-      "academic_year": "2024/2025"
-    },
-    {
-      "id": 3,
-      "student_id": 12002,
-      "course_id": 1,
-      "assessment_1": 10.0,
-      "assessment_2": 11.0,
-      "exam": 8.5,
-      "final_grade": 9.65,
-      "status": "Aprovado",
-      "academic_year": "2024/2025"
-    },
-    {
-      "id": 4,
-      "student_id": 12002,
-      "course_id": 2,
-      "assessment_1": 16.0,
-      "assessment_2": 17.0,
-      "exam": 18.0,
-      "final_grade": 17.1,
-      "status": "Aprovado",
-      "academic_year": "2024/2025"
+      "semestre": 2,
+      "departamento": "Informática",
+      "docente": "Prof. Manuel Costa",
+      "horas_teoricas": 25,
+      "horas_praticas": 25
     },
     {
       "id": 5,
-      "student_id": 12003,
-      "course_id": 1,
-      "assessment_1": 18.0,
-      "assessment_2": 19.0,
-      "exam": 19.5,
-      "final_grade": 18.85,
-      "status": "Aprovado",
-      "academic_year": "2024/2025"
+      "codigo": "SO2024",
+      "nome": "Sistemas Operativos",
+      "ects": 6,
+      "semestre": 1,
+      "departamento": "Informática",
+      "docente": "Prof. Rita Pereira",
+      "horas_teoricas": 30,
+      "horas_praticas": 30
+    }
+  ],
+  "notas": [
+    {
+      "id": 1,
+      "aluno_id": 12001,
+      "disciplina_id": 1,
+      "avaliacao_1": 14.5,
+      "avaliacao_2": 15.0,
+      "exame": 16.0,
+      "ano_letivo": "2024/2025",
+      "epoca": "Normal"
+    },
+    {
+      "id": 2,
+      "aluno_id": 12001,
+      "disciplina_id": 2,
+      "avaliacao_1": 13.0,
+      "avaliacao_2": 14.0,
+      "exame": 15.0,
+      "ano_letivo": "2024/2025",
+      "epoca": "Normal"
+    },
+    {
+      "id": 3,
+      "aluno_id": 12002,
+      "disciplina_id": 1,
+      "avaliacao_1": 10.0,
+      "avaliacao_2": 11.0,
+      "exame": 8.5,
+      "ano_letivo": "2024/2025",
+      "epoca": "Normal"
+    },
+    {
+      "id": 4,
+      "aluno_id": 12002,
+      "disciplina_id": 2,
+      "avaliacao_1": 16.0,
+      "avaliacao_2": 17.0,
+      "exame": 18.0,
+      "ano_letivo": "2024/2025",
+      "epoca": "Normal"
+    },
+    {
+      "id": 5,
+      "aluno_id": 12003,
+      "disciplina_id": 1,
+      "avaliacao_1": 18.0,
+      "avaliacao_2": 19.0,
+      "exame": 19.5,
+      "ano_letivo": "2024/2025",
+      "epoca": "Normal"
     },
     {
       "id": 6,
-      "student_id": 12003,
-      "course_id": 3,
-      "assessment_1": 15.0,
-      "assessment_2": 16.0,
-      "exam": 17.0,
-      "final_grade": 16.1,
-      "status": "Aprovado",
-      "academic_year": "2024/2025"
+      "aluno_id": 12003,
+      "disciplina_id": 3,
+      "avaliacao_1": 15.0,
+      "avaliacao_2": 16.0,
+      "exame": 17.0,
+      "ano_letivo": "2024/2025",
+      "epoca": "Normal"
     },
     {
       "id": 7,
-      "student_id": 12004,
-      "course_id": 2,
-      "assessment_1": 12.0,
-      "assessment_2": 13.0,
-      "exam": 14.0,
-      "final_grade": 13.1,
-      "status": "Aprovado",
-      "academic_year": "2024/2025"
+      "aluno_id": 12004,
+      "disciplina_id": 2,
+      "avaliacao_1": 12.0,
+      "avaliacao_2": 13.0,
+      "exame": 14.0,
+      "ano_letivo": "2024/2025",
+      "epoca": "Normal"
     },
     {
       "id": 8,
-      "student_id": 12005,
-      "course_id": 1,
-      "assessment_1": 7.0,
-      "assessment_2": 8.0,
-      "exam": 6.5,
-      "final_grade": 7.15,
-      "status": "Reprovado",
-      "academic_year": "2024/2025"
+      "aluno_id": 12005,
+      "disciplina_id": 1,
+      "avaliacao_1": 7.0,
+      "avaliacao_2": 8.0,
+      "exame": 6.5,
+      "ano_letivo": "2024/2025",
+      "epoca": "Recurso"
+    },
+    {
+      "id": 9,
+      "aluno_id": 12006,
+      "disciplina_id": 3,
+      "avaliacao_1": 17.0,
+      "avaliacao_2": 18.0,
+      "exame": 18.5,
+      "ano_letivo": "2024/2025",
+      "epoca": "Normal"
+    },
+    {
+      "id": 10,
+      "aluno_id": 12007,
+      "disciplina_id": 1,
+      "avaliacao_1": 11.0,
+      "avaliacao_2": 12.0,
+      "exame": 13.0,
+      "ano_letivo": "2024/2025",
+      "epoca": "Normal"
     }
   ],
-  "classes": [
+  "turmas": [
     {
       "id": 1,
-      "code": "LEGI-T1",
-      "course_id": 1,
-      "room": "B201",
-      "capacity": 30,
-      "schedule": "Segunda 08:00-10:00",
-      "teacher": "Prof. Luís",
-      "students": [12001, 12002, 12003, 12005]
+      "codigo": "ENGSI-T1",
+      "disciplina_id": 1,
+      "sala": "B201",
+      "lotacao": 30,
+      "horario": "Segunda 08:00-10:00",
+      "docente": "Prof. Luís Ferreira",
+      "alunos": [12001, 12003, 12005, 12007]
     },
     {
       "id": 2,
-      "code": "LESI-T1",
-      "course_id": 2,
-      "room": "B105",
-      "capacity": 25,
-      "schedule": "Terça 14:00-16:00",
-      "teacher": "Prof. Diana",
-      "students": [12001, 12002, 12004]
+      "codigo": "LEI-T1",
+      "disciplina_id": 2,
+      "sala": "B105",
+      "lotacao": 25,
+      "horario": "Terça 14:00-16:00",
+      "docente": "Prof. Óscar Ribeiro",
+      "alunos": [12001, 12002, 12004]
     },
     {
       "id": 3,
-      "code": "LEGI-T2",
-      "course_id": 3,
-      "room": "A301",
-      "capacity": 35,
-      "schedule": "Quarta 10:00-12:00",
-      "teacher": "Prof. Vasco",
-      "students": [12003, 12005]
-    }
-  ],
-  "statistics": [
-    {
-      "id": 1,
-      "course": "LEGI",
-      "total_students": 3,
-      "overall_average": 14.75,
-      "pass_rate": 66.67,
-      "academic_year": "2024/2025"
+      "codigo": "ENGSI-T2",
+      "disciplina_id": 3,
+      "sala": "A301",
+      "lotacao": 35,
+      "horario": "Quarta 10:00-12:00",
+      "docente": "Prof. Ana Silva",
+      "alunos": [12003, 12006]
     },
     {
-      "id": 2,
-      "course": "LESI",
-      "overall_average": 13.375,
-      "pass_rate": 100.0,
-      "academic_year": "2024/2025"
-    },
-    {
-      "id": 3,
-      "course": "EEC",
-      "total_students": 2,
-      "overall_average": 13.1,
-      "pass_rate": 100.0,
-      "academic_year": "2024/2025"
-    }
-  ]
-}
+      "id": 4,
+      "codigo": "LECI-T1",
+      "disciplina_id": 4,
+      "sala": "C204",
+      "lotacao": 28,
+      "horario": "Quinta 16:00-18:00",
+      "docente": "Prof. Ma
